@@ -71,9 +71,7 @@ ifdef CONFIG_SOC_IMX51
 fw-shipped-$(CONFIG_IMX_SDMA) += imx/sdma/sdma-imx51.bin
 endif
 
-fw-shipped-$(CONFIG_WILC) += mchp/wilc1000_wifi_firmware.bin
 fw-shipped-$(CONFIG_WILC) += mchp/wilc3000_wifi_firmware.bin
-fw-shipped-$(CONFIG_WILC) += mchp/wilc3000_ble_firmware.bin
 
 fw-shipped-$(CONFIG_DVB_AV7110) += av7110/bootcode.bin
 fw-shipped-$(CONFIG_DVB_TTUSB_BUDGET) += ttusb-budget/dspbootcode.bin
